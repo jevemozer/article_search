@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NY Times API </title>
+  <meta name="description" content="Busque aqui os melhores artigos ja publicados no NY Times!">
+
+
+  <script src="script.js" defer></script>
+
+  <link href="style.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+
+  <h1 class="titulo">NY Times - Pesquisa de Artigos.</h1>
+
+
+
+  <div class="wrapper">
+
+    <div class="controls">
+      <form class="form">
+        <div>
+          <label for="search">Insira uma palavra-chave (obrigatório): </label>
+          <input type="text" id="search" class="search" required>
+        </div>
+        <div>
+          <label for="start-date">Insira uma data inicial: </label>
+          <input type="date" id="start-date" class="start-date" pattern="[0-9]{8}">
+        </div>
+        <div>
+          <label for="end-date">Insira uma data final: </label>
+          <input type="date" id="end-date" class="end-date" pattern="[0-9]{8}">
+        </div>
+        <div>
+          <button class="submit botao">buscar artigos</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="results">
+      <nav class="nav1">
+        <button class="prev botao">Previous 10</button>
+        <button class="next botao">Next 10</button>
+      </nav>
+
+      <section>
+      </section>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
