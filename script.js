@@ -2,7 +2,7 @@
 
 const baseURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
-const key = "EPkJdlBx7YwZu0w83Xa0KprXcPONVPy9";
+const key = "ENTER-YOUR-KEY";
 
 // Grab references to all the DOM elements you'll need to manipulate
 const searchTerm = document.querySelector(".search");
